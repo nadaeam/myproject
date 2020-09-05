@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Pacifico&family=Roboto+Condensed&family=Ubuntu&display=swap');
+body{
+    margin:0;
+    padding:0;
+    font-family:'Lato',sans-serif;
+}
+.navbar-brand{
+    font-family:'pacifico', cursive;
+    font-size: 35;
+    color:lightcoral !important;
+}
+.nav-link{
+    font-size: 16;
+    margin:15;
+    color:black !important;
+    font-family:'Roboto Condensed' ;
+}
+.nav-link:hover{
+    color: #00E8E8 !important;
+}
+.active .nav-link{
+    color: #00E8E8 !important;
+}
+.menu-right-btn{ 
+    margin-right: 4%;
+    background-color: transparent;
+    transition: all 300ms ease-in;
+  }
+.menu-right-btn:hover{
+    color: white;
+    background-color: #00E8E8;
+}
+.site-content{
+    background-image: url('11.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+.site-title , .site-desc{
+font-family:'Righteous';
+color:white;
+}
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 6%;
+    font-size:50;
+}
+.site-desc{
+ font-size: 14;
+ padding-left: 15%;   
+}
+.site-btn1{
+ color:white;
+ background-color:black !important;
+ margin-left: 20%;   
+}
+.site-btn2{
+background-color: white;
+}
+.site-btn1,.site-btn2
+{
+    margin-top:5%;
+    margin-bottom: 50%;
+}
+/*section 1 */
+.section-1 .heading-1
+{
+    margin-top: 8%;
+}
+.section-1 .heading-2{
+    margin-bottom: 5%;
+    font-size:39;
+}
+.section-1 .para-1
+{
+    width:60%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+
+.section-1 .card-text,.para-1{
+color: rgb(0,0,0,0.59);
+}
+.section-1{
+    margin-bottom: 8%;
+}
+.card{
+    width:20rem;
+}
+/*section 2*/
+.section-2 .container-fluid{
+background-image: url("foot.jpg");
+background-size: cover;
+background-attachment: fixed;
+}
+.section-2 .heading-1{
+    margin-top: 20%;
+    margin-bottom: 4%;
+    font-family:'Righteous', cursive;
+    width:80%;
+    color:white;
+}
+.section-2 .para-1{
+    widows: 80%;
+    font-family:'Ubuntu', sans-serif;
+    color:whitesmoked;
+    margin-bottom: 7%;
+}
+.section-2 .btn{
+    margin-bottom: 15%;
+    width:30%;
+    padding: 2% 5%;
+}
+.section-3{
+    margin-top:6%;
+
+}
+.section-3 .icon{
+ color:#00E8E8 !important;
+}
+.section-3 p{
+    color:rgb(0,0,0,0.59);
+}
+.section-4{
+    margin-top:8%;
+}
+.section-4 .row .col-md-7,.col-md-5{
+    margin-top:10%;
+    margin-bottom:10%;
+}
+.section-4 a{
+    color:lightseagreen;
+    font-size:40px;
+    text-decoration:none;
+}
+.section-4 .para-1{
+    color:white;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top:7%;
+    font-size:23px;
+}
+/*footer ..*/
+.social .icon2{
+    color: #ef56ef;
+    font-size:20px;
+}
+@media screen and (max-width:768px)
+{
+    .section-1 .card{
+width:14rem;
+    }
+    .section-4 .col-md-7 img{
+        width:350;
+    }
+
+}
+@media screen and (max-width:320px){
+    .site-content .site-title{
+        font-size: 30px;
+        padding-left:15%;
+
+    }
+    .site-content .site-btn2{
+        display: none;
+    }
+    .site-content .site-btn1 {
+        margin-left: 15%;
+    }
+    .section-1 .heading-1,.section-1 .heading-2{
+        font-size:25px;
+    }
+    .section-1 .col-md-4{
+        padding:5%;
+        margin-left: 8%;
+    }
+    .section-1 .card{
+        width:15rem;
+
+    }
+    .section-4 .col-md-5{
+        padding: 0% 15%;
+    }
+    footer input[type="button"]{
+margin-top:5%;
+
+    }
+}
